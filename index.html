@@ -1,26 +1,119 @@
 <!--
 Requirements
-[  ] Two Element Selectors
-[  ] Two ID Selectors
-[  ] Two Class Selectors
-[  ] Three Images
+[ yes ] Two Element Selectors
+[ yes ] Two ID Selectors
+[ yes ] Two Class Selectors
+[ yes ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a Background Image
-[ no ] Feature 2 - Include Border Radius CSS Property
+[ yes ] Feature 1 - Include a Background Image
+[ yes ] Feature 2 - Include Border Radius CSS Property
 [ no ] Feature 3 - Include Horizontal Line
 [ no ] Feature 4 - Embed YouTube Video
-[ no ] Feature 5 - Include Border CSS Property
+[ yes ] Feature 5 - Include Border CSS Property
 -->
-    
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Unit 2 Project</title>
-    </head>
-    <body>
 
-        
-    </body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Unit 2 Project</title>
+    <style>
+      body {
+        background-image: url("https://media.cntraveler.com/photos/58d2c0a97e623821b9f3181d/master/pass/yoshinoyama--japan-GettyImages-488852217.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      h1 {
+        color: cornflowerblue;
+      }
+      h1 {
+        background-color: aliceblue;
+      }
+      h1 {
+        font-size:45px
+      }
+      img {
+        border: 2px solid skyblue;
+      }
+      img {
+        border-radius: 20px;
+      }
+      ul {
+        color:skyblue
+      }
+      .title {
+        background-color: lavender;
+      }
+      .heading {
+        font-size: 30px;
+      }
+      #architecture {
+        color: mediumpurple;
+      }
+      #cuisine {
+        color: rebeccapurple;
+      }
+      #scenery {
+        color: indigo;
+      }
+    </style>
+  </head>
+  <body>
+    <center><h1>Why You Should go to Japan!</h1></center>
+
+    <ul style="list-style-type: square">
+      <li>
+        <h2 id="architecture" class="heading">
+          <em class="title">Architecture</em>
+        </h2>
+
+        <img
+          src="https://afar.brightspotcdn.com/dims4/default/8496376/2147483647/strip/true/crop/1000x667+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fk3-prod-afar-media.s3.us-west-2.amazonaws.com%2Fbrightspot%2F47%2F75%2F911a366a66e8fe13f874cb12376c%2Foriginal-shutterstock-685993597.jpg"
+          alt="Japanese Temple"
+          width="400"
+        />
+        <img
+          src="https://architecturesstyle.b-cdn.net/wp-content/uploads/2019/08/Contemporary-Japanese-Architecture.webp"
+          alt="Modern Japanese Architecture"
+          width="400"
+        />
+      </li>
+      <li>
+        <h2 id="cuisine" class="heading">
+          <em class="title">Cuisine</em>
+        </h2>
+
+        <img
+          src="https://cdn.britannica.com/77/234877-050-01EC3819/Tonkotsu-ramen.jpg"
+          alt="Ramen"
+          width="400"
+        />
+        <img
+          src="https://static.blog.bolt.eu/LIVE/wp-content/uploads/2024/05/10110345/different-types-of-sushi-1024x536.jpg"
+          alt="sushi"
+          height="280"
+          width="400"
+        />
+      </li>
+      <li>
+        <h2 id="scenery" class="heading">
+          <em class="title">Scenery</em>
+        </h2>
+
+        <img
+          src="https://www.scti.co.nz/-/media/project/scti/nz/images/social-media-thumbnails/japan-nature-thumbnail-1200x630.jpg"
+          alt="Mount Fuji"
+          width="400"
+          height="300"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dG9reW98ZW58MHx8MHx8fDA%3D"
+          alt="Tokyo"
+          width="400"
+          height="300"
+        />
+      </li>
+    </ul>
+  </body>
 </html>
